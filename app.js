@@ -15,4 +15,5 @@ document.getElementById("box").addEventListener("click", function(){
 	document.getElementById("quoted").appendChild(document.createTextNode(c));
 
 	document.getElementById('frame').src = 'iframe.html';
+	document.getElementsByClassName('twitter-share-button')[0].dataText=b+" "+c;
 }, false);
